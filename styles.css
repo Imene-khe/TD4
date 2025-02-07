@@ -103,35 +103,12 @@ nav ul li a:focus, nav ul li a:active {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-#side-menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 200px; 
-    height: 100vh; 
-    background: rgba(52, 73, 94, 0.95); 
-    padding-top: 60px; 
-    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 999;
-}
-
-#side-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    text-align: center;
-}
-
-#menu-lateral ul li {
+#side-menu ul li {
     width: 100%;
     padding: 15px 0;
 }
 
-#menu-lateral ul li a {
+#side-menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -141,9 +118,10 @@ nav ul li a:focus, nav ul li a:active {
     transition: 0.3s;
 }
 
-#menu-lateral ul li a:hover {
+#side-menu ul li a:hover {
     background: #1abc9c;
 }
+
 
 h1 {
     margin-top: 20px; /* Réduit l'espace entre le logo et le titre */
